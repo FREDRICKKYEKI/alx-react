@@ -1,0 +1,25 @@
+.Notifications {
+    border: 2px dotted var(--primary-color);
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.Notifications [aria-label="close"] {
+    all: unset;
+    float: right;
+}
+
+.Notifications [aria-label="close"] img {
+    width: 1rem;
+    height: 1rem;
+    opacity: .8;
+}
+
+.Notifications [data-priority="default"] {
+    color: var(--default-priority-color);
+
+}
+
+.Notifications [data-priority="urgent"] {
+    color: var(--urgent-priority-color);
+}

@@ -8,6 +8,8 @@
   --primary-color: #e0354b;
   --secondary-color: #f2f2f2;
   --tertiary-color: #333;
+  --default-priority-color: #1d0663;
+  --urgent-priority-color: red;
 }
 
 body {
@@ -40,6 +42,19 @@ main {
   flex: .8;
   display: flex;
   flex-direction: column;
+}
+
+main .inputs{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+main .inputs button{
+  all:unset;
+  outline: #ccc 1px solid;
+  border-radius: 5px;
+  padding: 2.5px 10px;
 }
 
 footer {
